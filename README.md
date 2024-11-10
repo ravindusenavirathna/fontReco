@@ -115,7 +115,7 @@ This project is licensed under the MIT License.
 Acknowledgements
 ----------------
 
-*   [React](https://reactjs.org/)
+*   [**`React`**](https://reactjs.org/)
     
 *   [Flask](https://flask.palletsprojects.com/en/stable/)
     
