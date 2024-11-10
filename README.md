@@ -117,7 +117,7 @@ Acknowledgements
 
 *   [**`React`**](https://reactjs.org/)
     
-*   [Flask](https://flask.palletsprojects.com/en/stable/)
+*   [**`Flask`**](https://flask.palletsprojects.com/en/stable/)
     
 *   [Keras](https://keras.io/)
     
