@@ -119,6 +119,6 @@ Acknowledgements
     
 *   [**`Flask`**](https://flask.palletsprojects.com/en/stable/)
     
-*   [Keras](https://keras.io/)
+*   [**`Keras`**](https://keras.io/)
     
 *   Special thanks to all open-source contributors!
