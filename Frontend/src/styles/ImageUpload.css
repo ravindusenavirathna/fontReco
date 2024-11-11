@@ -1,0 +1,30 @@
+
+.image-upload-container {
+    display: flex;
+}
+
+.image-upload-input-section {
+    width: 50%;
+}
+
+.image-upload-preview {
+    max-width: 100%;
+
+}
+
+.image-upload-error {
+    color: red;
+}
+.image-upload {
+    width: 100%;
+}
+
+.preview {
+    height: 300px;
+    width: 400px;
+}
+
+.preview {
+    height: 300px;
+    width: 400px;
+}
