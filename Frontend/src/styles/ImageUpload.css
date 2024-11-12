@@ -1,30 +1,41 @@
-
+/* Main container for image upload section */
 .image-upload-container {
-    display: flex;
+    display: flex; /* Layout for input and preview side-by-side */
 }
 
+/* Input section within image upload container */
 .image-upload-input-section {
-    width: 50%;
+    width: 50%; /* Takes up half of the container width */
 }
 
-.image-upload-preview {
-    max-width: 100%;
-
-}
-
-.image-upload-error {
-    color: red;
-}
+/* Full width for image upload container */
 .image-upload {
     width: 100%;
 }
 
-.preview {
-    height: 300px;
-    width: 400px;
+/* Preview area for uploaded images */
+.image-upload-preview {
+    max-width: 100%; /* Ensures image fits within container */
 }
 
+/* Error message styling */
+.image-upload-error {
+    color: red; /* Red text color for error messages */
+}
+
+/* Preview container for images */
 .preview {
-    height: 300px;
-    width: 400px;
+    width: 400px; /* Default preview container width */
+    height: 300px; /* Default preview container height */
+}
+
+/* Styled preview area inside image upload container */
+.image-upload .preview {
+    width: 300px; /* Specific width for preview */
+    height: 300px; /* Specific height for preview */
+    border: 1px solid #ccc; /* Border around preview */
+    display: flex; /* Centers content inside preview */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures image does not overflow container */
 }
