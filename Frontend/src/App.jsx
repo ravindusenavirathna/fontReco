@@ -1,11 +1,11 @@
 import React from "react";
-import Home from "./styles/pages/home.jsx";
+import FontPreview from "./components/pages/Main/FontPreview";
 
 const App = () => {
   return (
-    <>
-      <Home />
-    </>
+    <div>
+      <FontPreview />
+    </div>
   );
 };
 
