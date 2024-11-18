@@ -1,42 +1,91 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
+
+
+
+
+
+
+/*Update*/
+
+/*!* Styles for App Component *!*/
+/*.app {*/
+/*  width: 100%;*/
+/*  padding: 5%;*/
+/*  margin-left: 12%;*/
+/*  margin-right: 10%;*/
+/*}*/
+
+/*!* Main container for the app, centers content and provides padding *!*/
+/*.app-container {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center; !* Centers content vertically within app-container *!*/
+/*  text-align: center;*/
+/*  background-color: #242424FF; !* Dark background for contrast *!*/
+/*  width: 100%; !* Ensures full width for the container *!*/
+/*  margin-top: 10%; !* Top margin for spacing *!*/
+/*  margin-left: 25%; !* Side margins to center app content *!*/
+/*  margin-right: 25%;*/
+/*}*/
+
+/*!* Content container aligns upload and preview sections horizontally *!*/
+/*.content-container {*/
+/*  display: flex;*/
+/*  justify-content: center; !* Centers items horizontally within content-container *!*/
+/*  align-items: center; !* Centers items vertically within content-container *!*/
+/*  gap: 80px; !* Space between upload and preview sections *!*/
+/*}*/
+
+/*!* Upload section styling *!*/
+/*.upload-section {*/
+/*  width: 50%; !* Half-width for balanced layout *!*/
+/*  margin: 5% 0 5% 5%; !* Space around upload section *!*/
+/*  padding: 20px; !* Padding for spacing *!*/
+/*  background-color: #f9f9f9; !* Light background for contrast *!*/
+/*  border-radius: 8px; !* Rounded corners *!*/
+/*  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); !* Soft shadow effect *!*/
+/*}*/
+
+/*!* Preview section styling *!*/
+/*.preview-section {*/
+/*  color: #1a1a1a;*/
+/*  width: 50%; !* Half-width for balanced layout *!*/
+/*  margin: 5% 5% 5% 0; !* Space around preview section *!*/
+/*  padding: 20px; !* Padding for spacing *!*/
+/*  background-color: #f9f9f9; !* Light background for contrast *!*/
+/*  border-radius: 8px; !* Rounded corners *!*/
+/*  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); !* Soft shadow effect *!*/
+/*}*/
+
+/*!* Placeholder text style for empty preview areas *!*/
+/*.placeholder {*/
+/*  color: #777; !* Light gray text color *!*/
+/*  font-size: 1rem;*/
+/*  text-align: center;*/
+/*}*/
+
+/*!* Button styling *!*/
+/*button {*/
+/*  position: absolute;*/
+/*  width: 100px; !* Button width *!*/
+/*  height: 100px; !* Button height *!*/
+/*  color: #1a1a1a; !* Button text color *!*/
+/*  background-color: #f6d160; !* Yellow background for visibility *!*/
+/*  border: #f6d160 solid 3px; !* Border matches background color *!*/
+/*  border-radius: 100%; !* Makes button circular *!*/
+/*  box-shadow: inset 0 0 0 2px #1a1a1a; !* Inner border for visual depth *!*/
+/*  margin-left: 140px; !* Offset button from left edge *!*/
+/*  z-index: 900; !* Keeps button on top of other elements *!*/
+/*}*/
+
+/*!* Button hover effect *!*/
+/*button:hover {*/
+/*  transition: 0.5s; !* Smooth transition for hover effect *!*/
+/*  border: #1a1a1a solid 3px; !* Border changes to dark color *!*/
+/*  box-shadow: inset 0 0 0 2px #f6d160; !* Inner shadow changes color *!*/
+/*}*/
