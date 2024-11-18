@@ -115,10 +115,10 @@ This project is licensed under the MIT License.
 Acknowledgements
 ----------------
 
-*   [React](https://reactjs.org/)
+*   [**`React`**](https://reactjs.org/)
     
-*   [Flask](https://flask.palletsprojects.com/en/stable/)
+*   [**`Flask`**](https://flask.palletsprojects.com/en/stable/)
     
-*   [Keras](https://keras.io/)
+*   [**`Keras`**](https://keras.io/)
     
 *   Special thanks to all open-source contributors!
